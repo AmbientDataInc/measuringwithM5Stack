@@ -1,3 +1,6 @@
+# 温度、湿度、気圧センサBME280からI2Cでデータを読み、
+# M5StackのLCDにグラフ表示する
+#
 from machine import I2C, Pin
 import bme280
 import time
