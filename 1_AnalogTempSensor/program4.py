@@ -7,7 +7,7 @@ PIN = 36
 MULTISAMPLES = 10
 X0 = 120
 Y0 = 110
-font = lcd.FONT_Dejavu24
+font = lcd.FONT_DejaVu24
 
 channelId = チャネルID
 writeKey = 'ライトキー'
