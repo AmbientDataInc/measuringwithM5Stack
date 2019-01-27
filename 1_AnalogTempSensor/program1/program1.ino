@@ -10,7 +10,6 @@
 
 void setup() {
     M5.begin();
-    M5.Speaker.write(0); // スピーカーをオフする
     Serial.begin(115200);
 
     pinMode(PIN, INPUT);

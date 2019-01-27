@@ -12,7 +12,6 @@ BME280 bme280(BME280_I2C_ADDR_PRIM);
 
 void setup(){
     M5.begin();
-    M5.Speaker.write(0); // スピーカーをオフする
 
     Wire.begin(SDA, SCL, 400000);
     pinMode(SDA, INPUT_PULLUP); // SDAピンのプルアップの指定
