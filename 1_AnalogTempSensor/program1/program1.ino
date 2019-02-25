@@ -3,7 +3,7 @@
  */
 #include <M5Stack.h>
 
-// #define FONT_7SEG
+#define FONT_7SEG
 
 #define PIN 36
 #define MULTISAMPLES 10
