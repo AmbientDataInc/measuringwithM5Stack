@@ -2,7 +2,7 @@
 #include "BLEDevice.h"
 
 uint8_t seq; // remember number of boots in RTC Memory
-#define MyManufacturerId 0xffff  // test manufacturer ID
+#define MyManufacturerId 0xffff  // テストマニュファクチャラーID
 
 BLEScan* pBLEScan;
 
